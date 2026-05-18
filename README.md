@@ -1,18 +1,18 @@
-Machine Learning-Based Cyber Attack Detection Using Security Event Data
+Machine Learning-Based Cyber Attack Detection Using Security Event Data - 2210990328
 
 
-📌 Overview
+ Overview
 This project presents a data-driven approach for detecting and classifying cyber attacks using Machine Learning techniques. The system analyzes structured cybersecurity event data to identify different types of attacks and evaluate model performance using standard metrics.
 
 
-🎯 Objectives
+ Objectives
 Analyze and preprocess cybersecurity event data
 Apply Machine Learning algorithms for attack classification
 Evaluate model performance using accuracy, precision, recall, and F1-score
 Visualize data distribution and model results
 
 
-🛠️ Technologies Used
+ Technologies Used
 Python
 Pandas, NumPy
 Scikit-learn
@@ -20,7 +20,7 @@ Matplotlib, Seaborn
 Jupyter Notebook
 
 
-📊 Dataset
+ Dataset
 The dataset used in this project contains cybersecurity event records, including features such as:
 
 Attack Type
@@ -29,10 +29,10 @@ Data Exfiltrated
 Threat Intelligence
 Response Action
 
-📎 The dataset can be accessed at https://www.kaggle.com/datasets/hassaneskikri/ai-enhanced-cybersecurity-events-dataset/data
+ The dataset can be accessed at https://www.kaggle.com/datasets/hassaneskikri/ai-enhanced-cybersecurity-events-dataset/data
 
 
-⚙️ Methodology
+ Methodology
 The system follows a structured workflow:
 
 Data Collection
@@ -45,19 +45,19 @@ Model Evaluation
 Visualization
 
 
-🤖 Models Used
+ Models Used
 Logistic Regression
 Random Forest Classifier
 
 
-📈 Results
+ Results
 Logistic Regression Accuracy: ~19%
 Random Forest Accuracy: ~20%
 
 The results indicate that both models perform similarly, with Random Forest showing slightly better performance. However, low accuracy highlights limitations in dataset feature quality.
 
 
-📊 Visualizations
+ Visualizations
 The project includes:
 
 Attack Type Distribution
@@ -68,21 +68,21 @@ Confusion Matrix
 Feature Importance Graph
 
 
-📉 Key Observations
+ Key Observations
 Weak feature correlations limit model performance
 Balanced dataset increases classification complexity
 No single feature strongly influences prediction
 Model performance depends heavily on feature quality
 
 
-🚀 Future Improvements
+ Future Improvements
 Apply advanced models (SVM, XGBoost, Deep Learning)
 Improve feature engineering
 Use richer and more complex datasets
 Implement real-time attack detection
 
 
-📄 How to Run
+ How to Run
 Clone the repository
 Install required libraries:
 pip install pandas numpy scikit-learn matplotlib seaborn
